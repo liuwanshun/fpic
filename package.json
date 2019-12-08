@@ -1,0 +1,33 @@
+{
+  "name": "fpic",
+  "version": "0.0.1",
+  "description": "专业处理canvas，实现各种滤镜效果，就像在ps中处理画布一样",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuwanshun/fpic.git"
+  },
+  "keywords": [
+    "canvas",
+    "\"\"\u001b[D滤镜\u001b[C\u001b[D\""
+  ],
+  "author": "https://github.com/liuwanshun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuwanshun/fpic/issues"
+  },
+  "homepage": "https://github.com/liuwanshun/fpic#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
